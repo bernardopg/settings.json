@@ -1,0 +1,266 @@
+{ // Theme Setup.
+  "workbench.colorTheme": "Shades of Purple (Super Dark)",
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.fontFamily": "JetBrains Mono, Operator Mono, Menlo",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
+  "editor.letterSpacing": 0.5,
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 5,
+  "editor.cursorBlinking": "solid",
+  "editor.renderWhitespace": "all",
+  "editor.snippetSuggestions": "top",
+  "workbench.startupEditor": "none",
+  "editor.glyphMargin": true,
+  "workbench.editor.enablePreview": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  // Formatting Optional.
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "eslint.run": "onType",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "window.title": "${profileName}",
+  "workbench.settings.editor": "ui",
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "extensions.ignoreRecommendations": true,
+  "typescript.tsserver.log": "off",
+  "files.associations": {
+    ".env.*": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css"
+  },
+  "symbols.files.associations": {
+    "*.module.ts": "nest",
+    "*.guard.ts": "typescript",
+    "*.spec.ts": "ts-test",
+    "*.e2e-spec.ts": "ts-test",
+    "vitest.config.e2e.ts": "vite",
+    ".env.example": "gear"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "tv\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
+  ],
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  "cSpell.language": "en,pt",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "terminal.integrated.showExitAlert": false,
+  "typescript.suggest.autoImports": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "workbench.editor.labelFormat": "short",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "cSpell.enableFiletypes": [
+    "!asciidoc",
+    "!c",
+    "!cpp",
+    "!csharp",
+    "!go",
+    "!handlebars",
+    "!haskell",
+    "!jade",
+    "!java",
+    "!latex",
+    "!php",
+    "!pug",
+    "!python",
+    "!restructuredtext",
+    "!rust",
+    "!scala",
+    "!scss"
+  ],
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "explorer.compactFolders": true,
+  "git.enableSmartCommit": true,
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.fontSize": 14,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql"
+  ],
+  "editor.semanticHighlighting.enabled": true,
+  "breadcrumbs.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "editor.tabSize": 2,
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.exclude": {
+    "**\/CVS": true,
+    "**\/.DS_Store": true,
+    "**\/.hg": true,
+    "**\/.svn": true,
+    "**\/.git": true,
+    ".vscode": true,
+    "node_modules": true
+  },
+  "update.mode": "start",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.defaultProfile.osx": "tilix",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "window.commandCenter": true,
+  "git.openRepositoryInParentFolders": "always",
+  "symbols.hidesExplorerArrows": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "console-ninja.featureSet": "Community",
+  "workbench.editor.empty.hint": "hidden",
+  "update.showReleaseNotes": false,
+  "workbench.activityBar.location": "side",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.minimap.enabled": false,
+  "window.titleBarStyle": "native",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 11,
+      "y": 10
+    },
+    "frame": false
+  },
+  "editor.scrollbar.vertical": "visible",
+  "explorer.sortOrder": "foldersNestsFiles",
+  "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+  },
+  "explorer.fileNesting.enabled": true,
+  "cSpell.userWords": [
+    "bootcamp",
+    "chakra",
+    "checkin",
+    "checkins",
+    "clsx",
+    "Codegen",
+    "datadog",
+    "Datetime",
+    "dayjs",
+    "Dotenv",
+    "Elysia",
+    "esbuild",
+    "fastify",
+    "Fastify",
+    "feedbackwidget",
+    "ffprobe",
+    "Hasher",
+    "Hono",
+    "ilike",
+    "IUGU",
+    "jamjuree",
+    "jupiter",
+    "liveblocks",
+    "LIVEBLOCKS",
+    "Marguerita",
+    "middlewares",
+    "mixpanel",
+    "monaco",
+    "nestjs",
+    "omni",
+    "Omni",
+    "Onboarded",
+    "pallas",
+    "postgres",
+    "postgresql",
+    "prefetch",
+    "reactflow",
+    "roboto",
+    "rocketseat",
+    "rotion",
+    "rsxp",
+    "Sandpack",
+    "shiki",
+    "skylab",
+    "sqlite",
+    "supergraph",
+    "svgr",
+    "sympla",
+    "tailwindcss",
+    "textblock",
+    "tiptap",
+    "trpc",
+    "TRPC",
+    "tsup",
+    "unfollow",
+    "Unfollow",
+    "unform",
+    "Unform",
+    "unmark",
+    "upsert",
+    "Usuario",
+    "WEBPUSH"
+  ],
+  "workbench.statusBar.visible": true,
+  "terminal.external.linuxExec": "zsh",
+  "terminal.external.osxExec": "zsh",
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.enabled": false,
+  "terminal.integrated.shellIntegrations.decorationsEnabled": "zsh",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "zsh (2)": {
+      "path": "/usr/bin/zsh"
+    },
+    "zsh-static": {
+      "path": "/bin/zsh-static"
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "autoimport.absolute": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.terminal.executeInFileDir": true,
+  "python.testing.debugPort": 8000,
+  "workbench.editor.autoLockGroups": {
+    "workbench.input.interactive": true
+  }
+}
